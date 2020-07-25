@@ -42,7 +42,7 @@ class BotHandlerMixin:
         return Meaning
 
 class TelegramBot(BotHandlerMixin, Bottle):
-    BOT_URL = 'https://api.telegram.org/bot976470383:AAE5_BwXgdZjWnBzLpHWLj3XubJCZmZiXsQ/'
+    BOT_URL = 'https://api.telegram.org/bot<token>/'
 
     def __init__(self,*args,**kwargs):
         super(TelegramBot, self).__init__()
